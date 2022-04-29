@@ -1,0 +1,46 @@
+Cheese Cake class version one
+    The purpose of this class is to calculate ingredients and return their values.
+
+declare integers of quantity, servings, cream cheese, and vanilla
+declare a double for sugar
+declare a string for flavor
+
+construct cheese cake object with 2 parameters
+    string parameter representing flavor, integer parameter for quantity
+
+mutator methods to calculate 
+    total servings, cream cheese, vanilla, sugar
+
+getter methods to return values of
+    quantity, flavor, sugar, cream cheese, vanilla, servings
+
+to string 
+    format string of quantity, flavor, sugar, cream cheese, vanilla, servings
+
+
+
+Cheese Cake Tester class version one
+    The purpose of this class is to create objects of type CheeseCakeV1, place them into an ArrayList, 
+    and then print their values
+
+In the main function
+    Create cheese cake objects of flavor types
+        blueberry, strawberry, cherry, jalapeno, dill pickle, fig
+
+    Add cheese cake objects into ArrayList, cake
+
+    for each cheese cake object in ArrayList cake   
+        calculate total servings
+        calculate cream cheese
+        calculate vanilla
+        calculate sugar
+
+    Table printing format to displays cheese cake values
+
+    Declare instance variable of type cheese cake, dataRecord
+
+    for new integer index equals 0, and the index is less than the size of the ArrayList cake, add one to the index
+        dataRecord equals the index of ArrayList cake
+        print index
+        print to string method from cheese cake class
+
